@@ -1,0 +1,84 @@
+<!doctype HTML>
+<html lang="ko"
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="author" content="이건정"/>
+        <title>a 태그 연습> b.hrml</title>
+    </head>
+    <body>
+
+        <a href="b.html" target="_blank" title="동영상 재생이 가능하다.">
+            b.html로 향하는 링크
+        </a>
+
+        <!--
+            lorem ipsum
+            -의미가 없는 텍스트
+            -더미 텍스트
+            -웹 페이지에서 글자로 내용을 넣어서 테스트를 해야 할 때 마땅이 쓸 말이 없죠?
+             그래서 더미 텍스트를 써서 내용을 채우는 용도로 활용
+            - 영어, 타이포그래피 용으로도 종종 사용.
+            - 한글, "한글 입숨"
+        -->
+
+        <br />
+
+        <a href="#first">
+            현재 페이지 > 첫 번째 문단으로 이동
+        </a>
+
+        <br />
+
+        <a href="#second">
+            현재 페이지 > 두 번째 문단으로 이동
+        </a>
+
+        <br />
+
+        <a href="#third">
+            현재 페이지 > 세 번째 문단으로 이동
+        </a>
+
+        <!--
+            html에서 #이 id를 가리키는 말.
+            - CSS 선택자.
+
+            <id를 쓸 때 주의하실 사항>
+            1. (같은 파일 내에서) id는 중복되어선 안됩니다. 유일한 값.
+               - 다른 파일일 때는 각각의 id가 중복 가능.
+            2. 숫자로 시작되어선 안됩니다.
+               id="apple_123"(o)
+               id="123_apple"(x)
+            3. 띄어쓰기, 특수문자 안됩니다.
+               허용되는 특수문자 : _
+               $를 쓸 수 있긴 한데, 나중에 jQuery를 배우게 되면 분명히 헷갈리게 됩니다.
+        -->
+
+        <!--
+            (1) b.html로 이동한 후, b.html 내에서 두 번째 문단으로 이동하는 링크
+        -->
+
+        <br />
+
+        <a href="b.html#first" target="_blank">
+            b.html > 첫 번째 문단으로 이동하는 링크
+        </a>
+
+        <br />
+
+        <a href="b.html#second" target="_blank">
+            b.html > 두 번째 문단으로 이동하는 링크
+        </a>
+
+        <br />
+
+        <a href="b.html#third" target="_blank">
+            b.html > 세 번째 문단으로 이동하는 링크
+        </a>
+
+        <hi id="first">
+            첫 번째 문단
+        </hi>
+
+        <p></p>
+    </body>

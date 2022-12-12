@@ -1,0 +1,17 @@
+#box2 {
+    width: 150px;
+    /*height: 100px;*/
+    background-color: yellow;
+    text-align: center;
+    padding: 30px 0;
+    border-left: 20px solid red;
+    border-top: 30px solid blue;
+    border-bottom: 50px solid green;
+}
+#box1 {
+    background-color: pink;
+    width: 500px;
+    height: 50vh;
+    overflow: auto;
+    margin: auto;
+}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700;900&display=swap');
+
+#para2 {
+    font-size: 16px;
+}
+#para3 {
+    font-size: 150%;
+}
+#para4 {
+    font-size: 2em;
+}
+body {
+    font-size: 1.2em;
+}
+h1 {
+    font-size: 2.3em;
+}
+h2 {
+    font-size: 1.8em;
+}
+h3 {
+    font-size: 1.5em;
+}
+p {
+    font-size: 0.8em;
+}
